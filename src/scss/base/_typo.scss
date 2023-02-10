@@ -1,0 +1,29 @@
+.titulo{
+    color: black;
+    position: relative;
+    left: 550px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color : yellow;
+    font-size: 50px;   
+    @media(max-width:576px){
+        left: 580px;
+    }
+    
+}
+.contorno {
+    border-radius: 80px;
+    border-style: dotted; 
+    @media (max-width: 576px) {
+        flex-wrap: wrap; 
+    }
+}
+.colorTitulo {
+    color: black; }
+
+.fondoTitulo {
+    background-color: #ff7f50; }
+
+.ro {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-weight: 500 px; }

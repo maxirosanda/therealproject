@@ -1,0 +1,17 @@
+.imgtar {
+    width: 1100px;
+    height: 400px;
+    @media(max-width:576px) {
+        width: 580px;
+        left: 586px; 
+}
+}
+.contorno {
+    border-radius: 80px;
+    border-style: dotted;
+    @media (max-width:576px) {
+        flex-wrap: wrap ;
+    }
+
+}
+

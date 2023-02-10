@@ -1,0 +1,42 @@
+.tarjeta2 {
+    line-height: 25px;
+    margin: 30px;
+    font-weight: bold;
+    @media (max-width:576px){
+        font-size: calc(1em + 1vw) 
+    }
+
+
+
+.tarjeta2 {
+    animation-name: mover;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0, 91); }
+
+@keyframes mover {
+    0% {
+        transform: transalte(0, 0); }
+    100% {
+        transform: translate(450px, 0); } }
+
+.tarjeta3 {
+    animation-name: mover2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.17, 0.67, 0.54, 0.54); 
+    @media(max-width: 576px) {
+        font-size: calc(1em + 1vw) 
+}
+}
+
+@keyframes mover2 {
+    0% {
+        transform: transalte(0, 0); }
+    100% {
+        transform: translate(450px, 0); } 
+
+    }
+}

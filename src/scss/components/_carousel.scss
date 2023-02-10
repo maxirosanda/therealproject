@@ -1,0 +1,16 @@
+.carousel-inner {
+    width: 650px;
+    height: 400px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    left: 300px;
+    margin-top: 25px;
+    border-radius: 20px;
+    -o-object-fit: fill;
+    object-fit: fill; }
+    @media (max-width: 576px) {
+    .carousel-inner {
+      width: 400px;
+      height: 400px;
+    left: 415px;
+    overflow: hidden; } }

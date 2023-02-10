@@ -1,0 +1,43 @@
+
+%bnpequeño {
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.tarjetas {
+    display: flex;
+    flex-direction: wrap;
+    .bnpequeño {
+        @extend %bnpequeño;
+        margin: 10px 20px 10px 10px;
+        border: black solid 10px;
+        overflow: hidden;
+        @mixin bn ($background ,$color) {
+            background-color: $background ;
+            color: $color;
+            font-size: 20px;
+            padding-left: 10px;
+        .bn {
+            @include bn (pink, white)
+                { padding: 10px;
+                background-color: $colorPrincipal;
+                color: white;
+                font-size: 20px;
+                padding-left: 10px;
+                margin: 20px 30px 10px 10px;
+                border-color: #8b0000;
+                width: 650px; }
+            @media(max-width:576px) {
+                display: flex;
+                flex-wrap: wrap; 
+        
+                }
+            }
+        }
+    }
+} 
+
+

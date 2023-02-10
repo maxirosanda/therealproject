@@ -1,0 +1,18 @@
+.video {
+    bottom: -632px;
+    height: 400px;
+    width: 500px;
+    @media(max-width:576px ){
+            display: flex;
+            justify-content: center;
+            align-content: center;
+}
+}
+
+.mapa {
+    top: 853px;
+    left: 700px;
+    height: 400px;
+    width: 500px;
+}
+
